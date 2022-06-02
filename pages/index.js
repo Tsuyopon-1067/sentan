@@ -21,7 +21,7 @@ export default function Home() {
         </ul></nav>
 
         <div class="mainBar">
-            <img src="img/head.png">
+            <img src="img/head.png" />
         </div>
         <div class="bottomBar">
         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                 <h1>
                     <div class="soft"></div><nobr>フリーソフト</nobr>
                 </h1>
-                <img src="img/soft.png" alt="フリーソフト">
+                <img src="img/soft.png" alt="フリーソフト" />
                 <p>PC向けフリーソフトウェア。<br />日々の作業の効率化を。</p>
             </a></section>
             <section class="elements"><a href="p<nav><ul>
