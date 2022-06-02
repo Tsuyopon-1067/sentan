@@ -23,6 +23,13 @@ export default function Home() {
               <a className="nav" href="others.html"><li>Others</li></a>
               <a className="nav" href="prof.html"><li>Profile</li></a>
           </ul></nav>
+
+          <div className="mainBar" />
+            <img src="img/head.png" />
+        </div>
+        <div className="bottomBar" />
+        </div>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
