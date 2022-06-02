@@ -93,6 +93,11 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <h1 classMain="contents">Profile</h1>
+        <iframe classMain="prof" src="./prof.html"></iframe>
+
+        <iframe classMain="foot" src="./foot.html"></iframe>
       </main>
 
       <footer className={styles.footer}>
