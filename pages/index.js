@@ -36,6 +36,7 @@ export default function Home() {
                 <p>PC向けフリーソフトウェア。<br />日々の作業の効率化を。</p>
             </a></section>
             <section class="elements"><a href="p<nav><ul>
+            <a class="nav nav_cnt" href="index.html"><li>Top</li></a>
             <a class="nav" href="soft.html"><li>Software</li></a>
             <a class="nav" href="prog.html"><li>Programming</li></a>
             <a class="nav" href="others.html"><li>Others</li></a>
@@ -76,24 +77,6 @@ export default function Home() {
         <iframe class="prof" src="./prof.html"></iframe>
 
         <iframe class="foot" src="./foot.html"></iframe>rog.html">
-                <h1>
-                    <div class="prog"></div><nobr>競プロ解説</nobr>
-                </h1>
-                <img src="img/prog.png" alt="フリーソフト">
-                <p>競技プログラミングサイト<br />Atcoderの問題の解説。</p>
-            </section></a>
-            <section class="elements"><a href="others.html">
-                <h1>
-                    <div class="others"></div><nobr>その他記事</nobr>
-                </h1>
-                <img src="img/others.png" alt="その他">
-                <p>その他の雑他なコンテンツ。<br />旅行記・日記等を放置。</p>
-            </a></section>
-        </div>
-        <h1 class="contents">Profile</h1>
-        <iframe class="prof" src="./prof.html"></iframe>
-
-        <iframe class="foot" src="./foot.html"></iframe>
       </main>
 
       <footer className={styles.footer}>
