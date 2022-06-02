@@ -17,11 +17,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <nav><ul>
-              <a class="nav nav_cnt" href="index.html"><li>Top</li></a>
-              <a class="nav" href="soft.html"><li>Software</li></a>
-              <a class="nav" href="prog.html"><li>Programming</li></a>
-              <a class="nav" href="others.html"><li>Others</li></a>
-              <a class="nav" href="prof.html"><li>Profile</li></a>
+              <a className="nav nav_cnt" href="index.html"><li>Top</li></a>
+              <a className="nav" href="soft.html"><li>Software</li></a>
+              <a className="nav" href="prog.html"><li>Programming</li></a>
+              <a className="nav" href="others.html"><li>Others</li></a>
+              <a className="nav" href="prof.html"><li>Profile</li></a>
           </ul></nav>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
