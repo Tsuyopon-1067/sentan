@@ -30,6 +30,30 @@ export default function Home() {
           <div className="bottomBar">
           </div>
 
+        <h1 className="contents">Contents</h1>
+        <div>
+            <section className="elements"><a href="soft.html">
+                <h1>
+                    <div className="soft"></div><nobr>フリーソフト</nobr>
+                </h1>
+                <img src="img/soft.png" alt="フリーソフト" />
+                <p>PC向けフリーソフトウェア。<br />日々の作業の効率化を。</p>
+            </a></section>
+            <section className="elements"><a href="prog.html">
+                <h1>
+                    <div className="prog"></div><nobr>競プロ解説</nobr>
+                </h1>
+                <img src="img/prog.png" alt="フリーソフト" />
+                <p>競技プログラミングサイト<br />Atcoderの問題の解説。</p>
+            </a></section>
+            <section className="elements"><a href="others.html">
+                <h1>
+                    <div className="others"></div><nobr>その他記事</nobr>
+                </h1>
+                <img src="img/others.png" alt="その他" />
+                <p>その他の雑他なコンテンツ。<br />旅行記・日記等を放置。</p>
+            </a></section>
+        </div>
 
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
