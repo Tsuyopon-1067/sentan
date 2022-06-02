@@ -24,11 +24,11 @@ export default function Home() {
               <a className="nav" href="prof.html"><li>Profile</li></a>
           </ul></nav>
 
-          <div className="mainBar" />
+          <div className="mainBar">
             <img src="img/head.png" />
-        </div>
-        <div className="bottomBar" />
-        </div>
+          </div>
+          <div className="bottomBar">
+          </div>
 
 
         <h1 className={styles.title}>
