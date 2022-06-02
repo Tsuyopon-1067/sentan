@@ -36,7 +36,6 @@ export default function Home() {
                 <p>PC向けフリーソフトウェア。<br />日々の作業の効率化を。</p>
             </a></section>
             <section class="elements"><a href="p<nav><ul>
-            <a class="nav nav_cnt" href="index.html"><li>Top</li></a>
             <a class="nav" href="soft.html"><li>Software</li></a>
             <a class="nav" href="prog.html"><li>Programming</li></a>
             <a class="nav" href="others.html"><li>Others</li></a>
