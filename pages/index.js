@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import styles from '../styles/globals.css'
 
 export default function Home() {
   return (
@@ -55,7 +56,7 @@ export default function Home() {
             </a></section>
         </div>
 
-        <h1 class="contents">Profile</h1>
+        <h1 className="contents">Profile</h1>
 
         <div className="profDiv">
             <img className="prof" src="/img/prof.jpg" alt="プロフィール画像" />
