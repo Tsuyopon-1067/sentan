@@ -1,7 +1,11 @@
+html,
+body {
+    margin: 0;
+}
 /* ナビゲーションバー */
 nav {
     text-align: center;
-    width: 100%;
+    width: 100vw;
 }
 
 nav ul {
@@ -39,17 +43,18 @@ nav ul li img {
 }
 /* ヘッダの画像 */
 .mainBar{
+    width: 100vw;
     background: #29afaf;
     margin: 0;
     padding: 0;
 }
 .mainBar img{
-    width: 50vw;
+    width: 45vw;
     margin: 0;
     padding: 2vw;
 }
 .bottomBar{
-    width: 100%;
+    width: 100vw;
     height:1vw;
     background: #c1ab05;
     margin: 0;
@@ -116,8 +121,7 @@ div{
 }
 /* アイコン画像 */
 .elements a img{
-    ma
-    rgin: 0.8vw;
+    margin: 0.8vw;
     width: 20vw;
     max-width: 6.36cm;
 }
@@ -126,7 +130,7 @@ div{
     font-weight: normal;
     list-style: none;
     font-size: 80%;
-    margin: 5px; 
+    margin: 5px;
     padding: 0;
 }
 h1 a{
@@ -138,6 +142,9 @@ h1 a{
     color: #000;
     margin: 0;
     padding: 0;
+}
+.contentsSpace{
+  height: 30px;
 }
 /* プロフィール */
 iframe{
@@ -154,4 +161,55 @@ iframe{
   border: none;
   width: 100%;
   height: 75px;
+}
+
+
+.profDiv{
+    display: flex;
+    justify-content: space-around;
+}
+.info table tbody tr{
+    text-align: left;
+}
+.info a {
+    text-align: left;
+}
+/* アイコン */
+.prof{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 0;
+}
+/* 箇条書き */
+div .info{
+    /* 縦に積む */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+div div a img{
+    width: 16px;
+    margin: 0 3px 0 0;
+    padding: 0;
+}
+
+footer{
+    background: #29afaf;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px;
 }
