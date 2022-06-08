@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -25,9 +24,9 @@ export default function Home() {
           </ul></nav>
 
           <div className="mainBar">
-            <img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/head.png" />
-
+            <img src="/img/head.png" />
           </div>
+
           <div className="bottomBar">
           </div>
 
@@ -37,28 +36,29 @@ export default function Home() {
                 <h1>
                     <div className="soft"></div><nobr>フリーソフト</nobr>
                 </h1>
-                <img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/soft.png" alt="フリーソフト" />
+                <img src="/img/soft.png" alt="フリーソフト" />
                 <p>PC向けフリーソフトウェア。<br />日々の作業の効率化を。</p>
             </a></section>
             <section className="elements"><a href="prog.html">
                 <h1>
                     <div className="prog"></div><nobr>競プロ解説</nobr>
                 </h1>
-                <img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prog.png" alt="フリーソフト" />
+                <img src="/img/prog.png" alt="フリーソフト" />
                 <p>競技プログラミングサイト<br />Atcoderの問題の解説。</p>
             </a></section>
             <section className="elements"><a href="others.html">
                 <h1>
                     <div className="others"></div><nobr>その他記事</nobr>
                 </h1>
-                <img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/others.png" alt="その他" />
+                <img src="/img/others.png" alt="その他" />
                 <p>その他の雑他なコンテンツ。<br />旅行記・日記等を放置。</p>
             </a></section>
         </div>
 
+        <h1 class="contents">Profile</h1>
 
-        <div>
-            <img className="prof" src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof.jpg" alt="プロフィール画像" />
+        <div className="profDiv">
+            <img className="prof" src="/img/prof.jpg" alt="プロフィール画像" />
             <div className="info">
                 <table>
                   <tbody>
@@ -89,19 +89,19 @@ export default function Home() {
                   </tbody>
                 </table>
                 <br />
-                <a href="https://twitter.com/Tsuyopon_1067" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof_tw.png" />Twitter(@Tsuyopon_1067)</a><br />
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof_github.png" />GitHub</a>
+                <a href="https://twitter.com/Tsuyopon_1067" target="_blank" rel="noopener noreferrer"><img src="/img/prof_tw.png" />Twitter(@Tsuyopon_1067)</a><br />
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="/img/prof_github.png" />GitHub</a>
             </div>
         </div>
 
+        <div className="contentsSpace">
+        </div>
+        <footer>
+        <p>(c) 2022 つよぽん all rights reserved.<br />
+        オリジナルのThe Go gopher（Gopherくん）は、Renée Frenchによってデザインされました。</p>
+        </footer>
       </main>
 
-      <footer className={styles.footer}>
-        <footer>
-        (c) 2022 つよぽん all rights reserved.<br />
-        オリジナルのThe Go gopher（Gopherくん）は、Renée Frenchによってデザインされました。
-        </footer>
-      </footer>
     </div>
   )
 }
