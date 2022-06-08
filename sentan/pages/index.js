@@ -61,49 +61,46 @@ export default function Home() {
             <img className="prof" src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof.jpg" alt="プロフィール画像" />
             <div className="info">
                 <table>
+                  <tbody>
                     <tr>
-                        <td className="prof_l">名前< /td>
-                        <td className="prof_r">つよぽん< /td>
-                    < /tr>
+                        <td className="prof_l">名前</td>
+                        <td className="prof_r">つよぽん</td>
+                    </tr>
                     <tr>
-                        <td className="prof_l">性別< /td>
-                        <td className="prof_r">男性< /td>
-                    < /tr>
+                        <td className="prof_l">性別</td>
+                        <td className="prof_r">男性</td>
+                    </tr>
                     <tr>
-                        <td className="prof_l">年齢< /td>
-                        <td className="prof_r">おおよそ20歳< /td>
-                    < /tr>
+                        <td className="prof_l">年齢</td>
+                        <td className="prof_r">おおよそ20歳</td>
+                    </tr>
                     <tr>
-                        <td className="prof_l">所属< /td>
-                        <td className="prof_r">静岡大学 情報学部 情報科学科< /td>
-                    < /tr>
+                        <td className="prof_l">所属</td>
+                        <td className="prof_r">静岡大学 情報学部 情報科学科</td>
+                    </tr>
                     <tr>
-                        <td className="prof_l">居住< /td>
-                        <td className="prof_r">静岡県< /td>
-                    < /tr>
+                        <td className="prof_l">居住</td>
+                        <td className="prof_r">静岡県</td>
+                    </tr>
                     <tr>
-                        <td className="prof_l">出身< /td>
-                        <td className="prof_r">奈良県< /td>
-                    < /tr>
-                </table><br />
+                        <td className="prof_l">出身</td>
+                        <td className="prof_r">奈良県</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <br />
                 <a href="https://twitter.com/Tsuyopon_1067" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof_tw.png" />Twitter(@Tsuyopon_1067)</a><br />
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof_github.png" />GitHub< /a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="https://github.com/Tsuyopon-1067/sentan/blob/main/pages/img/prof_github.png" />GitHub</a>
             </div>
         </div>
 
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <footer>
+        (c) 2022 つよぽん all rights reserved.<br />
+        オリジナルのThe Go gopher（Gopherくん）は、Renée Frenchによってデザインされました。
+        </footer>
       </footer>
     </div>
   )
