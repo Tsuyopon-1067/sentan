@@ -72,7 +72,7 @@ export default function Home() {
                     </tr>
                     <tr>
                         <td className="prof_l">年齢</td>
-                        <td className="prof_r">おおよそ20歳</td>
+                        <td className="prof_r">おおよそ21歳</td>
                     </tr>
                     <tr>
                         <td className="prof_l">所属</td>
