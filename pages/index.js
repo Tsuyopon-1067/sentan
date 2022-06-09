@@ -44,7 +44,7 @@ export default function Home() {
                     <div className="prog"></div><nobr>競プロ解説</nobr>
                 </h1>
                 <img src="/img/prog.png" alt="フリーソフト" />
-                <p>競技プログラミングサイト<br />Atcoderの問題の解説。</p>
+                <p>競技プログラミングサイト<br />AtCoderの問題の解説。</p>
             </a></section>
             <section className="elements"><a href="others.html">
                 <h1>
@@ -91,6 +91,7 @@ export default function Home() {
                 <br />
                 <a href="https://twitter.com/Tsuyopon_1067" target="_blank" rel="noopener noreferrer"><img src="/img/prof_tw.png" />Twitter(@Tsuyopon_1067)</a><br />
                 <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><img src="/img/prof_github.png" />GitHub</a>
+                <a href="https://atcoder.jp/users/Tsuyopon_1067" target="_blank" rel="noopener noreferrer"><img src="https://img.atcoder.jp/assets/atcoder.png" />AtCoder</a>
             </div>
         </div>
 
